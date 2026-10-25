@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Olaf Stokłos (55702) - IS LAB C</title>
+
+    <link rel="stylesheet" href="styles.css" type="text/css">
+    <script src="scripts.js" defer></script>
+</head>
+<body>
+<div class="main-wrapper">
+    <header class="app-header">
+        <h1>Prognoza Pogody API</h1>
+        <div class="search-bar">
+            <input type="text" id="cityInput" placeholder="Wpisz miejscowość (np. Szczecin)">
+            <button id="getWeatherBtn">Pogoda</button>
+        </div>
+    </header>
+
+    <main id="resultsArea" class="results-container">
+        <section class="current-section">
+            <h2>Pogoda bieżąca</h2>
+            <div id="currentWeatherBox"></div>
+        </section>
+
+        <section class="forecast-section">
+            <h2>Prognoza 5-dniowa</h2>
+            <div id="forecastBox" class="forecast-grid"></div>
+        </section>
+    </main>
+</div>
+</body>
+</html>
