@@ -1,0 +1,8 @@
+body {
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+}
+.table {
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
